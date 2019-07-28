@@ -1,11 +1,15 @@
 fn main() {
-    let mut number = 3;
+    let a = [10, 20, 30, 40, 50];
 
-    while number != 0 {
-        println!("{}!", number);
-
-        number = number - 1;
+    for element in a.iter() {
+        println!("The value is: {}", element);
     }
 
-    println!("LIFTOFF!!!");
+    // let mut index = 0;
+    // while index < 5 {
+    //     println!("The value is: {}", a[index]);
+    //
+    //     index = index + 1;
+    // }
+
 }
